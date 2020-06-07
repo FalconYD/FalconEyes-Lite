@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="200_Define">
+      <UniqueIdentifier>{a0828d64-0577-481b-bdd5-2a81402b293a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="110_MatLib">
+      <UniqueIdentifier>{5592c022-cc50-415c-95c6-ddf4bede2310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="120_Lib">
+      <UniqueIdentifier>{dcd6d9f0-c5d2-47c3-86ba-da1c64c9a235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog">
+      <UniqueIdentifier>{9ccd63d5-9b3e-4431-a037-75a3dad7dec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog\Image">
+      <UniqueIdentifier>{f9fa0322-1338-48a5-88a3-bf6388775b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog\Filter">
+      <UniqueIdentifier>{ab777bc5-ea92-4f9d-bd75-341628e66f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog\Segment">
+      <UniqueIdentifier>{8f25f16c-09cb-46f7-9faf-b91a8d50c3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog\Color">
+      <UniqueIdentifier>{a3c815af-fd4b-400b-9e55-7e04d5ec3bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="400_Dialog\Tools">
+      <UniqueIdentifier>{f036596f-a53a-4f0a-9774-84a0e9c7a09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="300_MainClass">
+      <UniqueIdentifier>{990a3486-aa38-4095-94a4-88fee9f191d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\IppImage\MatDib.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNewDlg.h">
+      <Filter>400_Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianDlg.h">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffusionDlg.h">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNoiseDlg.h">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithmeticLogicalDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaCorrectionDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightnessConstrastDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatDibFourier.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CannyDlg.h">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatDibSegment.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Binarization.h">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatDibFeature.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="HarrisCornerDlg.h">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateDlg.h">
+      <Filter>400_Dialog\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatColor.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CColorCombineDlg.h">
+      <Filter>400_Dialog\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatDibExt.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatAvi.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OScopeCtrl.h">
+      <Filter>120_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="define_Structure.h">
+      <Filter>200_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="define_Fuction.h">
+      <Filter>200_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="FalconMath.h">
+      <Filter>120_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalystHistogram.h">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CFourierDescDlg.h">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BarChart.h">
+      <Filter>120_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IppImage\MatFullSearch.h">
+      <Filter>110_MatLib</Filter>
+    </ClInclude>
+    <ClInclude Include="define_StaticValues.h">
+      <Filter>200_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="define_Class.h">
+      <Filter>200_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="FalconTimer.h">
+      <Filter>120_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CAviChildFrame.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CAviDoc.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CAviView.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FalconEyes.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FalconEyesDoc.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FalconEyesView.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>300_MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequencyImageProcssingDlg.h">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdDlg.h">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ContourDlg.h">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureDlg.h">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureDlg.h">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\IppImage\MatDib.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatDibExt.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNewDlg.cpp">
+      <Filter>400_Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianDlg.cpp">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffusionDlg.cpp">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNoiseDlg.cpp">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithmeticLogicalDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaCorrectionDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessConstrastDlg.cpp">
+      <Filter>400_Dialog\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatDibFourier.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatDibFeature.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CannyDlg.cpp">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatDibSegment.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Binarization.cpp">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="HarrisCornerDlg.cpp">
+      <Filter>400_Dialog\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatColor.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorCombineDlg.cpp">
+      <Filter>400_Dialog\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatAvi.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\OScopeCtrl.cpp">
+      <Filter>120_Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="FalconMath.cpp">
+      <Filter>120_Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalystHistogram.cpp">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CFourierDescDlg.cpp">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\BarChart.cpp">
+      <Filter>120_Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IppImage\MatFullSearch.cpp">
+      <Filter>110_MatLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CAviChildFrame.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CAviDoc.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CAviView.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FalconEyes.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FalconEyesDoc.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FalconEyesView.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>300_MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequencyImageProcssingDlg.cpp">
+      <Filter>400_Dialog\Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdDlg.cpp">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ContourDlg.cpp">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureDlg.cpp">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureDlg.cpp">
+      <Filter>400_Dialog\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FalconEyes.reg" />
+    <None Include="res\FalconEyes.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\mfcribbon-ms00001.mfcribbon-ms">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FalconEyes.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\output_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\FalconEyesDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\FalconEyes.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\idr_falc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Icon\falcon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\res\main.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\simullarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\imagelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\graphiclarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\graphicsmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\colorsmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\imagesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filterlarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filtersmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\segmentlarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\segmentsmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\videolarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\videosmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

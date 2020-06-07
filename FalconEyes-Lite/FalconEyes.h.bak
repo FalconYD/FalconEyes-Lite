@@ -1,0 +1,100 @@
+
+// FalconEyes.h : FalconEyes 응용 프로그램에 대한 주 헤더 파일
+//
+#pragma once
+
+#ifndef __AFXWIN_H__
+	#error "PCH에 대해 이 파일을 포함하기 전에 'stdafx.h'를 포함합니다."
+#endif
+
+#include "resource.h"       // 주 기호입니다.
+#include "MakerDlg.h"
+#include "AnalystHistogram.h"
+#include "SystemInfoDlg.h"
+#include "UsbCamDlg.h"
+#include "AutoSearchDlg.h"
+#include "TesseractOCRDlg.h"
+#include "OpenCLInfoDlg.h"
+#include "PointPainterDlg.h"
+#include "FrequencyImageProcssingDlg.h"
+#include "ContourDlg.h"
+#include "ThresholdDlg.h"
+#include "testDlg.h"
+#include "StageSimulationDlg.h"
+#include "FeatureDlg.h"
+#include "OpenGLProfile.h"
+
+//#include "SimulatorAlignDlg.h"
+
+// CFalconEyesApp:
+// 이 클래스의 구현에 대해서는 FalconEyes.cpp을 참조하십시오.
+//
+class MatDib;
+class CFalconEyesApp : public CWinAppEx
+{
+public:
+	CFalconEyesApp();
+
+public:
+	MatDib* m_pNewDib;
+	CMakerDlg* m_pDlgMaker;
+	AnalystHistogram* mc_pDlgAnalystHisto;
+	SystemInfoDlg* mc_pDlgSystemInfo;
+	UsbCamDlg* mc_pDlgUsbCam;
+	AutoSearchDlg* mc_pDlgAutoSearch;
+	TesseractOCRDlg* mc_pDlgOcr;
+	OpenCLInfoDlg* mc_pDlgOCL;
+	testDlg* mc_pDlgTest;
+	FrequencyImageProcssingDlg* mc_pDlgFrqProc;
+	PointPainterDlg* mc_pDlgPointPainter;
+	ContourDlg* mc_pDlgContour;
+	ThresholdDlg* mc_pDlgThresh;
+	StageSimulationDlg* mc_pDlgStage;
+	FeatureDlg* mc_pDlgFeature;
+	OpenGLProfile* mc_pDlgOGLProfile;
+	CMultiDocTemplate* m_pImageDocTemplate;
+	CMultiDocTemplate* m_pAviDocTemplate;
+// 재정의입니다.
+public:
+	virtual BOOL InitInstance();
+	virtual int ExitInstance();
+
+// 구현입니다.
+	BOOL  m_bHiColorIcons;
+	virtual void PreLoadState();
+	virtual void LoadCustomState();
+	virtual void SaveCustomState();
+
+	afx_msg void OnAppAbout();
+	DECLARE_MESSAGE_MAP()
+	afx_msg void OnEditPaste();
+	afx_msg void OnUpdateEditPaste(CCmdUI *pCmdUI);
+	afx_msg void OnAnalystMaker();
+	afx_msg void OnAnalystHistogram();
+	afx_msg void OnSimulatorAlign();
+	afx_msg void OnFileNew();
+	afx_msg void OnAppSysinfo();
+	afx_msg void OnFileUsbcam();
+	afx_msg void OnSimulatorAutoSearch();
+	afx_msg void OnAnalystOcr();
+	afx_msg void OnAppOpencl();
+	afx_msg void OnSimulatorTest();
+	afx_msg void OnSimulatorPointpainter();
+	afx_msg void OnFilterFrequencyCv();
+	afx_msg void OnSegmentContour();
+	afx_msg void OnSegmentBinDlg();
+	afx_msg void OnAlignMeca();
+	afx_msg void OnUpdateAlignMeca(CCmdUI *pCmdUI);
+private:
+public:
+	afx_msg void OnImageFeature();
+	afx_msg void OnUpdateAppSysinfo(CCmdUI *pCmdUI);
+	afx_msg void OnAnalyst3dprofile();
+};
+
+extern CFalconEyesApp theApp;
+
+void AfxNewImage(MatDib& dib);
+void AfxNewImage(MatDib& dib, CString title);
+void AfxPrintInfo(CString message);
+void AfxPrintInfo(LPCTSTR lpszFormat, ...);
